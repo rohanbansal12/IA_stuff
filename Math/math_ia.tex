@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+\newlength{\blackoutwidth}
+\newcommand{\blackout}[1]
+{%necessary comment
+  \settowidth{\blackoutwidth}{#1}%necessary comment
+  \rule[-0.3em]{\blackoutwidth}{1.125em}%necessary comment
+}
+
+\PassOptionsToPackage{usenames,dvipsnames}{xcolor}
+\PassOptionsToPackage{colorlinks,linktoc=all}{hyperref}
+\usepackage{balance}       % to better equalize the last page
+\usepackage{graphics}      % for EPS, load graphicx instead 
+\usepackage[T1]{fontenc}   % for umlauts and other diaeresis
+\usepackage{txfonts}
+
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{cuted}
+\usepackage{capt-of}
+\usepackage{bm}
+\usepackage[pdflang={en-US},pdftex]{hyperref}
+
+\title{Comparing Novel Machine Learning Methods For
+Recommending Interesting Writing using a Controllable,
+Explanation-Aware Visual Interface}
+\author{Rohan Bansal}
+\date{November 2020}
+
+\input{preamble/preamble}
+\input{preamble/preamble_math}
+\input{preamble/preamble_acronyms}
+\input{preamble/preamble_biblatex}
+
+\bibliography{bib}
+\begin{document}
+
+\input{sections/titlepage}
+\newpage
+
+\tableofcontents
+\newpage
+
+\input{sections/intro}
+
+\input{sections/background}
+
+\input{sections/derivations}
+
+\cleardoublepage
+\printbibliography
+
+\end{document}{}
