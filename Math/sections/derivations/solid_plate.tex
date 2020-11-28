@@ -1,0 +1,97 @@
+\subsection{Solid Plate}
+
+For a solid rectangular plate of mass $M$, width $a$ and length $b$, the process has to be modified because of the changing dimensions in two separate directions--along the length and width--so elemental mass areas are utilized instead of volumes to calculate the moment of inertia. Consider the plate depicted in 
+
+
+Assume the plate to have a constant per-area density of $\delta$, which means that:
+
+\[A = ab\]
+\[M = \delta A\]
+\[\delta = \frac{M}{ab}\]
+\[dm = \delta dA\]
+
+
+As the axis of rotation passes through the origin and the entire lamina is located in the $X-Y$ plane, the square of the perpendicular distance $r^2$ of an arbitrary point on the region $(x, y)$ can be written as $x^2+y^2$ using the distance formula. Thus, the integral for the moment of inertia of the region $D$ becomes:
+
+\[I = \iint\limits_{D} (x^2+y^2)\delta dA\]
+
+Then, to further simplify the integral, we must evaluate dA in terms of the cartesian coordinates. Consider a small rectangle with width $dx$ and length $dy$. The area of this elemental mass unit would simply be $length \times width$, or $dxdy$. Thus, the integral is further reduced to:
+
+\[I = \iint\limits_{D} (x^2+y^2)\delta dxdy\]
+
+Our limits of integration are simply the length and width of the entire region $D$, leaving a simple, double line integral that can be solved using traditional integration techniques:
+
+\[I = \int_0^b\int_0^a (x^2+y^2)\delta dxdy\]
+\[I = \delta\int_0^b\left[\frac{x^3}{3}+xy^2\right]_0^a dy\]
+\[I = \delta\int_0^b\left(\frac{a^3}{3}+ay^2\right) dy\]
+\[I = \delta\left[\frac{a^3y}{3}+\frac{ay^3}{3}\right]_0^b\]
+\[I = \delta\left(\frac{a^3b}{3}+\frac{ab^3}{3}\right)\]
+\[I = \frac{M}{ab}\left(\frac{a^3b}{3}+\frac{ab^3}{3}\right)\]
+\[I = \frac{M}{3}\left(a^2+b^2\right)\]
+
+Thus, the moment of inertia of a rectangular lamina about a perpendicular axis through its corner is denoted through this formula. However, to calculate the moment of inertia about a perpendicular axis through the center of this lamina, we must utilize the parallel axis theorem. The distance formula can be used to determine that the distance between these two axes is simply half the length of the diagonal of the plate, or $\frac{\sqrt{a^2+b^2}}{2}$, so the theorem states:
+
+\[I_{corner} = I_{CM} + M\left(\frac{\sqrt{a^2+b^2}}{2}\right)^2\]
+\[\frac{M}{3}\left(a^2+b^2\right) = I_{CM} + \frac{M}{4}\left(a^2+b^2\right)\]
+
+The resulting equation for the moment of inertia of a rectangular plate of dimensions $a \times b$ is then determined to be:
+
+\begin{equation}
+I_{\text{rectangular plate}} = \frac{M}{12}\left(a^2+b^2\right)
+\label{eq:final_moment_rectangular_plate}
+\end{equation}
+
+\subsubsection{Extension: Polar Coordinates, Jacobian Determinants and Density Functions}
+
+Although the moment of inertia of a plate is constantly utilized in physical applications, it is also common for a body to have a density function that dictates the density of each individual point of a lamina. The moment of inertia integral for a 2-D body of this nature rotating about the origin would then be:
+
+\[I = \iint\limits_{D} (x^2+y^2)\rho(x,y) dA\]
+
+where $\rho(x,y)$ simply represents the density as a function of the cartesian coordinates. A common example of this approach is highlighted for a circular plate with radius $R$ centered at the origin that has the elementary density function $\rho(x,y) = 1 - x^2 - y^2$. Then, the integral would become:
+
+\[I = \iint\limits_{D} (x^2+y^2)(1 - x^2 - y^2) dA\]
+
+Using a similar process, this integral could be solved much like a typical rectangular plate, however it is more convenient to use polar coordinates to translate this system from $(x,y) \rightarrow (r, \theta)$. Polar coordinates offer a multitude of simple relationships, including:
+
+\[x = r\cos\theta\]
+\[y = r\sin\theta\]
+\[r^2 = x^2 + y^2\]
+
+However, the one issue when translating between spaces is the concept of spatial distortion, which affects non-linear measures, such as area and volume. Although $dA = dxdy$ in the $xy$ system, $dA \neq drd\theta$ in the $r \theta$ system. To determine the distortion factor, the Jacobian must be calculated for the translation/mapping of a region from one space to another. The Jacobian of the transformation:
+
+\[(u, v) \rightarrow (x(u, v), y(u, v))\]
+
+is the $2 \times 2$ determinant:
+
+\[\frac{\partial(x,y)}{\partial(u,v)} = \begin{bmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} \end{bmatrix}\]
+
+Then, the area/volume of a region in the newly-mapped space simply requires the absolute value of the determinant to be multiplied as a factor to account for the distortion:
+
+\[dA = dxdy = \left|\frac{\partial(x,y)}{\partial(u,v)}\right|dudv\]
+
+As $x = r\cos \theta$ and $y = r\sin \theta$, the Jacobian for the polar transformation is:
+
+\[ \begin{bmatrix} \frac{\partial x}{\partial r} & \frac{\partial x}{\partial \theta} \\ \frac{\partial y}{\partial r} & \frac{\partial y}{\partial \theta} \end{bmatrix} = \begin{bmatrix} \cos \theta & -r \sin \theta \\ \sin \theta & r \cos \theta \end{bmatrix} = r \cos^2{\theta} + r \sin^2{\theta} = r\]
+
+resulting in the derivation:
+
+\[dA = dxdy = rdrd\theta\]
+
+Returning to the original integral for the circular lamina, we have:
+
+\[I = \iint\limits_{D} (x^2+y^2)(1 - x^2 - y^2) rdrd\theta\]
+
+and we can substitute $r^2$ for $x^2+y^2$, resulting in:
+
+\[I = \iint\limits_{D} (r^2)(1 - r^2) rdrd\theta\]
+
+Our limits for the inner integral would be $0$ to $R$, and the outer integral would span the angle around the circle, or $0$ to $2\pi$:
+
+\[I = \int_0^{2\pi} \int_0^R (r^2)(1 - r^2) rdrd\theta\]
+\[I = \int_0^{2\pi} \int_0^R (r^3 - r^5) drd\theta\]
+\[I = \int_0^{2\pi} \left[\frac{r^4}{4} - \frac{r^6}{6}\right]_0^R d\theta\]
+\[I = \int_0^{2\pi} \left(\frac{R^4}{4} - \frac{R^6}{6}\right) d\theta\]
+\[I = \left(\frac{R^4}{4} - \frac{R^6}{6}\right)\left[\theta \right]_0^{2\pi}\]
+\[I = \pi R^4\left(\frac{1}{2} - \frac{R^2}{3}\right)\]
+
+Thus, the moment of inertia of this circular lamina with an elementary mass density function can be denoted through a formula that is based solely on its radius. There are obviously significantly more complex regions and density functions for modern day applications, but the premise remains much the same.

@@ -8,3 +8,5 @@
 \contentsline {subsection}{\numberline {3.1}Hollow Ring/Cylinder}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Solid Cylinder}{9}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Solid Sphere}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Solid Plate}{13}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Extension: Polar Coordinates, Jacobian Determinants and Density Functions}{15}{subsubsection.3.4.1}%
