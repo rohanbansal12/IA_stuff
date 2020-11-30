@@ -1,7 +1,9 @@
+% !TEX root = ../../math_ia.tex
 \subsection{Solid Plate}
 
 For a solid rectangular plate of mass $M$, width $a$ and length $b$, the process has to be modified because of the changing dimensions in two separate directions--along the length and width--so elemental mass areas are utilized instead of volumes to calculate the moment of inertia. Consider the plate depicted in 
 
+\input{fig/solid_plate}
 
 Assume the plate to have a constant per-area density of $\delta$, which means that:
 
@@ -41,7 +43,9 @@ I_{\text{rectangular plate}} = \frac{M}{12}\left(a^2+b^2\right)
 \label{eq:final_moment_rectangular_plate}
 \end{equation}
 
-\subsubsection{Extension: Polar Coordinates, Jacobian Determinants and Density Functions}
+This premise can also be adopted for 3-D shapes, using the $(x,y,z)$ coordinate system and $dV$ elements instead of $dA$.
+
+\subsubsection{Polar Coordinates, Jacobian Determinants and Density Functions}
 
 Although the moment of inertia of a plate is constantly utilized in physical applications, it is also common for a body to have a density function that dictates the density of each individual point of a lamina. The moment of inertia integral for a 2-D body of this nature rotating about the origin would then be:
 
@@ -94,4 +98,4 @@ Our limits for the inner integral would be $0$ to $R$, and the outer integral wo
 \[I = \left(\frac{R^4}{4} - \frac{R^6}{6}\right)\left[\theta \right]_0^{2\pi}\]
 \[I = \pi R^4\left(\frac{1}{2} - \frac{R^2}{3}\right)\]
 
-Thus, the moment of inertia of this circular lamina with an elementary mass density function can be denoted through a formula that is based solely on its radius. There are obviously significantly more complex regions and density functions for modern day applications, but the premise remains much the same.
+Thus, the moment of inertia of this circular lamina with an elementary mass density function can be denoted through a formula that is based solely on its radius. There are obviously significantly more complex regions and density functions for modern day applications, but the premise remains much the same. Once again, the approach offers very simple scaling to 3-D shapes by using the $(r, \theta, z)$ space translation.

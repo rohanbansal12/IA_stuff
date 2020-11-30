@@ -1,12 +1,14 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Background}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Kinetic Energy and Physics Definitions}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Vector Cross Products}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Parallel Axis Theorem}{6}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Derivations}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Hollow Ring/Cylinder}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Solid Cylinder}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Solid Sphere}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Solid Plate}{13}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Extension: Polar Coordinates, Jacobian Determinants and Density Functions}{15}{subsubsection.3.4.1}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Background}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Kinetic Energy and Physics Definitions}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Vector Cross Products}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Parallel Axis Theorem}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Derivations}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Hollow Ring/Cylinder}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Solid Cylinder}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Solid Sphere}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Solid Plate}{12}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Polar Coordinates, Jacobian Determinants and Density Functions}{14}{subsubsection.3.4.1}%
+\contentsline {section}{\numberline {4}Extension: Moment of Inertia Tensor}{16}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{20}{section.5}%

@@ -19,6 +19,7 @@
 \usepackage{cuted}
 \usepackage{capt-of}
 \usepackage{bm}
+
 \usepackage[pdflang={en-US},pdftex]{hyperref}
 
 \title{Comparing Novel Machine Learning Methods For
@@ -32,20 +33,32 @@ Explanation-Aware Visual Interface}
 \input{preamble/preamble_acronyms}
 \input{preamble/preamble_biblatex}
 
+\usepackage[math]{cellspace}
+\cellspacetoplimit 1pt
+\cellspacebottomlimit 1pt
+\setlength{\arraycolsep}{2pt}
+
 \bibliography{bib}
 \begin{document}
 
 \input{sections/titlepage}
 \newpage
 
+\cleardoublepage
+\pagenumbering{gobble}
 \tableofcontents
-\newpage
+\cleardoublepage
+\pagenumbering{arabic}
 
 \input{sections/intro}
 
 \input{sections/background}
 
 \input{sections/derivations}
+
+\input{sections/extension}
+
+\input{sections/conclusion}
 
 \cleardoublepage
 \printbibliography
