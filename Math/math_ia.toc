@@ -12,3 +12,4 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Polar Coordinates, Jacobian Determinants and Density Functions}{14}{subsubsection.3.4.1}%
 \contentsline {section}{\numberline {4}Extension: Moment of Inertia Tensor}{16}{section.4}%
 \contentsline {section}{\numberline {5}Conclusion}{20}{section.5}%
+\contentsline {section}{References}{21}{section*.9}%

@@ -1,11 +1,11 @@
-% !TEX root = ../../math_ia.tex
+% !TEX root = ../math_ia.tex
 \section{Extension: Moment of Inertia Tensor}
 
 Although the work done in this investigation has primarily been for symmetric, 3-D bodies which rely on simple, perpendicular axes of rotation or 2-D laminas located in the $X-Y$ plane, the motion of rotating $3-D$ bodies can be significantly more complex. This primarily stems from the idea that the angular momentum vector of a 3-D rotating body is often not parallel to the angular velocity vector, even for bodies that exhibit traditional modes of symmetry. This type of multi-dimensional rotation also inhibits the use of the elementary method of determining rotational kinetic energy as described in \cref{eq:basic_rke}. To partially alleviate these issues, a moment of inertia tensor (or matrix for traditional purposes) can be utilized which provides a proportionality factor between angular momentum and rotational velocity. The $3 \times 3$ tensor for a rigid object of $N$ point masses $m_k$ can be defined as:
 
 \[\bm{I} = \begin{bmatrix}I_{11} & I_{12} & I_{13} \\ I_{21} & I_{22} & I_{23} \\ I_{31} & I_{32} & I_{33}\end{bmatrix}\]
 
-The individual components of the matrix are defined by the following function:
+The individual components of the matrix are defined by the following function~\parencite{Thornton_Marion_2004}:
 
 \[I_{ij} = \sum_{k=1}^N m_k (\left\Vert \bm{r}_k \right\Vert^2\delta_{ij} - x_i^{(k)}x_j^{(k)})\]
 
@@ -23,7 +23,6 @@ For this investigation, we will assume that the point of reference for the tenso
 
 This can also be thought of as rotation about the $x, y, z$ axes respectively as the distance is essentially the perpendicular distance from these axes. For the off-diagonal elements, the kronecker delta function will instead evaluate to $0$, resulting in the following relationships:
 
-
 \[I_{xy} = I_{yx} = -\sum_{k=1}^N m_kx_ky_k\]
 \[I_{xz} = I_{zx} = -\sum_{k=1}^N m_kx_kz_k\]
 \[I_{yz} = I_{zy} = -\sum_{k=1}^N m_ky_kz_k\]
@@ -39,7 +38,7 @@ What is even more intriguing about this seemingly complicated setup is that it c
 \label{eq:inertia_tensor_integral}
 \end{equation}
 
-In this definition, $\bm{E}_3$ is the $3 \times 3$ identity vector and $\otimes$ represents the outer product of $2$ vectors, defined as $(\bm{u} \otimes \bm{v})_{ij} = u_iv_j$. This results in an identical layout to the individualized definitions presented earlier, but is more streamlined and easier to read. The integral also closely mimics the structure presented for the plate by replacing $dV$ with $dxdydz$ and multiplying with the density function to produce the elemental mass $dm$.
+In this definition, $\bm{E}_3$ is the $3 \times 3$ identity vector and $\otimes$ represents the outer product of $2$ vectors, defined as $(\bm{u} \otimes \bm{v})_{ij} = u_iv_j$. This results in an identical layout to the individualized definitions presented earlier, but is more streamlined and easier to read. The integral also closely mimics the structure presented for the plate by replacing $dV$ with $dxdydz$ and multiplying with the density function to produce the elemental mass $dm$~\parencite{Thornton_Marion_2004}.
 
 Although this finding has endlessly complex implementations, the basic premise can be illustrated through the example of a cube with side length $a$, mass $M$ and constant density $\rho$ whose vertex is located at the origin and sides extend in the positive $x, y, z$ directions. We can immediately determine that:
 
@@ -72,15 +71,15 @@ Simplyifing, substituting for $\rho$, and reducing results in a final moment of 
 
 \[\bm{I}_{\text{uniform cube}} =  \begin{bmatrix} \frac{2}{3}Ma^2 & -\frac{1}{4}Ma^2 & -\frac{1}{4}Ma^2 \\ -\frac{1}{4}Ma^2 & \frac{2}{3}Ma^2 & -\frac{1}{4}Ma^2 \\ -\frac{1}{4}Ma^2 & -\frac{1}{4}Ma^2 & \frac{2}{3}Ma^2\end{bmatrix}\]
 
-We notice that the diagonal moment of inertia values ($I_{xx}, I_{yy}, I_{zz}$) are identical, as well as the off-diagonal values. This is somewhat intuitive because the cube has a uniform density and is situated symmetrically with respect to the individual axes. It is important to keep in mind that the moment of inertia is a measure of the difficulty of rotating a body about a given axis (much like inertia is the tendency of a body to resist translational motion), so this matrix allows us to easily determine the angular momentum or energy of a body rotating about any axis passing through the origin (as this was the assumed reference point). To calculate the moment of inertia about any axis passing through the reference point, we can simply use the relation described in \cref{eq:matrix_to_moment}, where $\bm{\hat{\omega}}$ represents the unit angular velocity vector for a given axis of rotation. 
+We notice that the diagonal moment of inertia values ($I_{xx}, I_{yy}, I_{zz}$) are identical, as well as the off-diagonal values. This is somewhat intuitive because the cube has a uniform density and is situated symmetrically with respect to the individual axes. It is important to keep in mind that the moment of inertia is a measure of the difficulty of rotating a body about a given axis (much like inertia is the tendency of a body to resist translational motion), so this matrix allows us to easily determine the angular momentum or energy of a body rotating about any axis passing through the origin (as this was the assumed reference point). To calculate the moment of inertia about any axis passing through the reference point, we can simply use the relation described in \cref{eq:matrix_to_moment}, where $\bm{\hat{\omega}}$ represents the unit angular velocity vector for a given axis of rotation~\parencite{Kreyszig_Kreyszig_Norminton_2011}. 
 
 \begin{equation}
 I = \bm{\hat{\omega}}^T\bm{I}\bm{\hat{\omega}}
 \label{eq:matrix_to_moment}
 \end{equation}
 
-The proof for this result is left out, as it is outside the scope of the investigation, but the equation can be used to quickly determine the moment of inertia for the cube about its diagonal, something which was difficult to do using traditional methods. The unit vector for this axis is simply $\begin{bmatrix}\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}\end{bmatrix}$, so:
+The proof for this result is left out, as it is outside the scope of the investigation, but the equation can be used to quickly determine the moment of inertia for the cube about its diagonal, something which was difficult to do using traditional methods. The unit vector for this diagonal axis is simply $\begin{bmatrix}\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}\end{bmatrix}$, so:
 
 \[I = \begin{bmatrix}\frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}} & \frac{1}{\sqrt{3}}\end{bmatrix}\begin{bmatrix} \frac{2}{3}Ma^2 & -\frac{1}{4}Ma^2 & -\frac{1}{4}Ma^2 \\ -\frac{1}{4}Ma^2 & \frac{2}{3}Ma^2 & -\frac{1}{4}Ma^2 \\ -\frac{1}{4}Ma^2 & -\frac{1}{4}Ma^2 & \frac{2}{3}Ma^2\end{bmatrix}\begin{bmatrix}\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}\end{bmatrix} = \begin{bmatrix}\frac{1}{6\sqrt{3}}Ma^2 & \frac{1}{6\sqrt{3}}Ma^2 & \frac{1}{6\sqrt{3}}Ma^2\end{bmatrix}\begin{bmatrix}\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}\end{bmatrix} = \frac{1}{6}Ma^2\] 
 
-In this simple manner, the moment of inertia can easily be calculated for any potential axis, and the entire approach can easily be adopted for other bodies, not only cubes. This matrix can also be shifted in order to make the center of mass and reference point coincide, which eliminates the off-diagonal values entirely and results in a matrix with only 3 integral values.
+In this simple manner, the moment of inertia can easily be calculated for any potential axis, and the entire approach can easily be adopted for other bodies, not only cubes. This matrix can also be shifted in order to make the center of mass and reference point coincide, which eliminates the off-diagonal values entirely and results in a matrix with only 3 defining values.

@@ -17,7 +17,7 @@ As the axis of rotation passes through the origin and the entire lamina is locat
 
 \[I = \iint\limits_{D} (x^2+y^2)\delta dA\]
 
-Then, to further simplify the integral, we must evaluate dA in terms of the cartesian coordinates. Consider a small rectangle with width $dx$ and length $dy$. The area of this elemental mass unit would simply be $length \times width$, or $dxdy$. Thus, the integral is further reduced to:
+Then, to further simplify the integral, we must evaluate dA in terms of the cartesian coordinates. Consider a small rectangle with width $dx$ and length $dy$. The area of this elemental mass unit would simply be $length \times width$, or $dxdy$. Thus, the integral is further reduced to~\parencite{Hass_Heil_Weir_2018}:
 
 \[I = \iint\limits_{D} (x^2+y^2)\delta dxdy\]
 
@@ -61,7 +61,7 @@ Using a similar process, this integral could be solved much like a typical recta
 \[y = r\sin\theta\]
 \[r^2 = x^2 + y^2\]
 
-However, the one issue when translating between spaces is the concept of spatial distortion, which affects non-linear measures, such as area and volume. Although $dA = dxdy$ in the $xy$ system, $dA \neq drd\theta$ in the $r \theta$ system. To determine the distortion factor, the Jacobian must be calculated for the translation/mapping of a region from one space to another. The Jacobian of the transformation:
+However, the one issue when translating between spaces is the concept of spatial distortion, which affects non-linear measures, such as area and volume. Although $dA = dxdy$ in the $xy$ system, $dA \neq drd\theta$ in the $r \theta$ system~\parencite{Hass_Heil_Weir_2018}. To determine the distortion factor, the Jacobian must be calculated for the translation/mapping of a region from one space to another. The Jacobian of the transformation:
 
 \[(u, v) \rightarrow (x(u, v), y(u, v))\]
 
@@ -69,7 +69,7 @@ is the $2 \times 2$ determinant:
 
 \[\frac{\partial(x,y)}{\partial(u,v)} = \begin{bmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} \end{bmatrix}\]
 
-Then, the area/volume of a region in the newly-mapped space simply requires the absolute value of the determinant to be multiplied as a factor to account for the distortion:
+Then, the area/volume of a region in the newly-mapped space simply requires the absolute value of the determinant to be multiplied as a factor to account for the distortion~\parencite{Weisstein_Jacobian}:
 
 \[dA = dxdy = \left|\frac{\partial(x,y)}{\partial(u,v)}\right|dudv\]
 

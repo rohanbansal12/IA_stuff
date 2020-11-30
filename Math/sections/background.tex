@@ -3,7 +3,7 @@
 \label{sec:background}
 
 \subsection{Kinetic Energy and Physics Definitions}
-Kinetic energy is a measure of the energy of a moving body. The formula for the calculation of kinetic energy of a body moving with translational velocity $v$ and a mass $M$, with the assumption that the body is rigid and the center of mass is moving at the same constant velocity is shown in \cref{eq:basic_kinetic_energy}.
+Kinetic energy is a measure of the energy of a moving body. The formula for the calculation of kinetic energy of a body moving with translational velocity $v$ and a mass $M$, with the assumption that the body is rigid and the center of mass is moving at the same constant velocity is shown in \cref{eq:basic_kinetic_energy}~\parencite{Young_Freedman_Young_2020}.
 
 \begin{equation}
 KE = \frac{1}{2}Mv^2
@@ -74,18 +74,18 @@ I = mr^2
 
 where $r$ is the perpendicular distance from the particle to the axis.
 
-The general formula for rotational kinetic energy can then be defined by \cref{eq:basic_rke} using two values, the rotational velocity $\omega$ and the moment of inertia $I$, which for a body rotating at a constant velocity about a fixed axis are constants (similar to $M$ and $v$ for traditional kinetic energy).
+The general formula for rotational kinetic energy can then be defined by \cref{eq:basic_rke} using two values, the rotational velocity $\omega$ and the moment of inertia $I$, which for a body rotating at a constant velocity about a fixed axis are constants (similar to $M$ and $v$ for traditional kinetic energy)~\parencite{Young_Freedman_Young_2020}.
 
 \begin{equation}
 R.K.E = \frac{1}{2}I\omega^2
 \label{eq:basic_rke}
 \end{equation}
 
-Plugging in \cref{eq:simple_moment_inertia} and \cref{eq:v_and_w} to the equation for rotational kinetic energy shows that the final units remain the same as that for traditional kinetic energy presented in \cref{eq:basic_kinetic_energy}. Using this information, I will derive moment of inertia formulas for a multitude of common bodies in motion.
+Plugging in \cref{eq:simple_moment_inertia} and \cref{eq:v_and_w} to the equation for rotational kinetic energy shows that the final units remain the same as that for traditional kinetic energy presented in \cref{eq:basic_kinetic_energy}. Moment of inertias are also utilized to calculate angular momentum about a point which has many identical properties to traditional momentum, including conservation and collision governance. Using this information, I will derive moment of inertia formulas for a multitude of common bodies in motion.
 
 \subsection{Vector Cross Products}
 
-The formula for moment of inertia relies on the magnitude of a cross product. The general formula for the magnitude of a cross product is defined as:
+The formula for moment of inertia relies on the magnitude of a cross product. The general formula for the magnitude of a cross product is defined as~\parencite{Hass_Heil_Weir_2018}:
 
 \begin{equation}
 |\bm{u} \times \bm{v}| = |\bm{u}||\bm{v}|\sin{\theta}
@@ -145,7 +145,7 @@ This result can then be square rooted, resulting in the initial theorem presente
 
 \subsection{Parallel Axis Theorem}
 
-To calculate the moment of inertia for more complex bodies, the parallel axis theorem is often utilized to relate the moment of inertia about an axis passing through the center of mass of a body to a parallel axis at a distance $d$ from the central axis. \cref{eq:parallel_axis_formula} describes the theorem, where $I_{cm}$ is the moment of inertia through an axis passing through the center of mass, $M$ is the mass of the body, and $I'$ is the resultant moment of inertia through the parallel axis. This equation is applicable for any body, regardless of shape or dimensions.
+To calculate the moment of inertia for more complex bodies, the parallel axis theorem is often utilized to relate the moment of inertia about an axis passing through the center of mass of a body to a parallel axis at a distance $d$ from the central axis~\parencite{Abdulghany_2017}. \cref{eq:parallel_axis_formula} describes the theorem, where $I_{cm}$ is the moment of inertia through an axis passing through the center of mass, $M$ is the mass of the body, and $I'$ is the resultant moment of inertia through the parallel axis. This equation is applicable for any body, regardless of shape or dimensions.
 
 \begin{equation}
 I' = I_{cm} + Md^2
