@@ -40,7 +40,11 @@ What is even more intriguing about this seemingly complicated setup is that it c
 
 In this definition, $\bm{E}_3$ is the $3 \times 3$ identity vector and $\otimes$ represents the outer product of $2$ vectors, defined as $(\bm{u} \otimes \bm{v})_{ij} = u_iv_j$. This results in an identical layout to the individualized definitions presented earlier, but is more streamlined and easier to read. The integral also closely mimics the structure presented for the plate by replacing $dV$ with $dxdydz$ and multiplying with the density function to produce the elemental mass $dm$~\parencite{Thornton_Marion_2004}.
 
-Although this finding has endlessly complex implementations, the basic premise can be illustrated through the example of a cube with side length $a$, mass $M$ and constant density $\rho$ whose vertex is located at the origin and sides extend in the positive $x, y, z$ directions. We can immediately determine that:
+Although this finding has endlessly complex implementations, the basic premise can be illustrated through the example of a cube with side length $a$, mass $M$ and constant density $\rho$ whose vertex is located at the origin and sides extend in the positive $x, y, z$ directions as shown in \cref{fig:extension_cube}.
+
+\input{fig/extension_cube}
+
+We can immediately determine that:
 
 \[\rho(x,y,z) = \rho\]
 \[V = a^3\]
@@ -67,7 +71,7 @@ The limits for our integrals simply span the length of the sides, or $0$ to $a$,
 
 \[\bm{I} = \rho \begin{bmatrix} \left[\frac{a^4z}{3} + \frac{a^2z^3}{3}\right]_0^a & \left[\frac{-a^4z}{4}\right]_0^a & \left[\frac{-a^3z^2}{4}\right]_0^a \\ \left[\frac{-a^4z}{4}\right]_0^a & \left[\frac{a^4z}{3} + \frac{a^2z^3}{3}\right]_0^a & \left[\frac{-a^3z^2}{4}\right]_0^a \\ \left[\frac{-a^3z^2}{4}\right]_0^a & \left[\frac{-a^3z^2}{4}\right]_0^a & \left[\frac{2a^4z}{3}\right]_0^a \end{bmatrix}\]
 
-Simplyifing, substituting for $\rho$, and reducing results in a final moment of inertia tensor of:
+Simplyifing, substituting for $\rho$, and reducing, results in a final moment of inertia tensor of:
 
 \[\bm{I}_{\text{uniform cube}} =  \begin{bmatrix} \frac{2}{3}Ma^2 & -\frac{1}{4}Ma^2 & -\frac{1}{4}Ma^2 \\ -\frac{1}{4}Ma^2 & \frac{2}{3}Ma^2 & -\frac{1}{4}Ma^2 \\ -\frac{1}{4}Ma^2 & -\frac{1}{4}Ma^2 & \frac{2}{3}Ma^2\end{bmatrix}\]
 
