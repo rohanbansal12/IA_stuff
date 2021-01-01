@@ -1,0 +1,63 @@
+\documentclass[a4paper,9pt]{extarticle}
+
+\newcommand\hmmax{0}
+\newcommand\bmmax{0}
+
+\newlength{\blackoutwidth}
+\newcommand{\blackout}[1]
+{%necessary comment
+  \settowidth{\blackoutwidth}{#1}%necessary comment
+  \rule[-0.3em]{\blackoutwidth}{1.125em}%necessary comment
+}
+
+\newcommand\cincludegraphics[2][]{\raisebox{-0.2\height}{\includegraphics[#1]{#2}}}
+\newcommand\Tstrut{\rule{0pt}{2.1ex}}  
+\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}}
+\newcommand{\TBstrut}{\Tstrut\Bstrut}
+
+\PassOptionsToPackage{usenames,dvipsnames}{xcolor}
+\PassOptionsToPackage{colorlinks,linktoc=all}{hyperref}
+\usepackage{balance}       % to better equalize the last page
+\usepackage{graphics}      % for EPS, load graphicx instead 
+\usepackage[T1]{fontenc}   % for umlauts and other diaeresis
+\usepackage{txfonts}
+\usepackage{cellspace}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{cuted}
+\usepackage{capt-of}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage[pdflang={en-US},pdftex]{hyperref}
+
+\title{Chemistry HL IA}
+\author{Rohan Bansal}
+\date{January 2021}
+
+\input{preamble/preamble}
+\input{preamble/preamble_math}
+\input{preamble/preamble_acronyms}
+
+\bibliography{bib}
+\begin{document}
+
+\input{sections/titlepage}
+\newpage
+
+\input{sections/intro}
+
+\input{sections/background}
+
+\input{sections/hypothesis}
+
+\input{sections/variables}
+
+\input{sections/methodology}
+
+\input{sections/results}
+
+\printbibliography
+\end{document}{}

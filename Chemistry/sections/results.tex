@@ -1,0 +1,124 @@
+% !TEX root = ../chem_ia.tex
+\section{Results}
+
+\subsection{Raw Data}
+
+\begin{table}[!htb]
+\begin{minipage}[t]{.65\linewidth}
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|} 
+		 \hline
+		 \multirow{2}{*}{Setup} & \multicolumn{5}{|c|}{Volumes $(\pm .05 mL)$} & \multicolumn{3}{|c|}{Time $(\pm .05 s)$}\\
+		 \cline{2-9}
+		 & $HCl$ & $Acetone$ & $I_2$ & $H_2O$ & Total & $\#1$ & $\#2$ & $\#3$ \\
+		  \hline
+		 $\#1$ & $5$ & $5$ & $5$ & $10$ & $25$ & $342$ & $354$ & $331$\\
+		  \hline
+		  $\#2$ & $5$ & $5$ & $10$ & $5$ & $25$ & $621$ & $682$ & $634$\\
+		  \hline
+		  $\#3$ & $5$ & $10$ & $5$ & $5$ & $25$ & $161$ & $183$ & $164$\\
+		  \hline
+		  $\#4$ & $10$ & $5$ & $5$ & $5$ & $25$ & $152$ & $165$ & $153$\\
+		  \hline
+		\end{tabular}
+		\caption{Rate Law Experiment (all trials performed at $294.8$ $K$)}
+	\label{table:rate_law_raw_data}
+    \end{minipage}%
+\begin{minipage}[t]{.35\linewidth}
+\centering
+	\begin{tabular}{|c|c|c|c|} 
+		 \hline
+		 Temperature & \multicolumn{3}{|c|}{Time $(\pm .05 s)$}\\
+		 \cline{2-4}
+		 $(\pm .05 K)$ & $\#1$ & $\#2$ & $\#3$ \\
+		  \hline
+		  $287.1$ & $734$ & $725$ & $756$\\
+		  \hline
+		  $294.8$ & $342$ & $354$ & $331$\\
+		  \hline
+		  $306.8$ & $134$ & $142$ & $115$\\
+		  \hline
+		  $317.5$ & $37$ & $42$ & $46$\\
+		  \hline
+		\end{tabular}
+	\caption{Activation Energy Experiment (all trials carried out with volume setup $\#1$ in \cref{table:rate_law_raw_data})}
+	\label{table:activation_energy_raw_data}
+	\end{minipage}%
+	\caption{Raw Data}
+    \label{table:raw_data}
+\end{table}
+
+\subsection{Qualitative Data}
+
+\subsection{Calculations}
+
+\subsubsection{Rate Law Experiment}
+
+\begin{table}[h!]
+\centering
+
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline 
+ Rationale & Sample Calculation\\
+ \hline
+	Firstly, for each volumetric configuration, we must calculate the average time for the three unique trials performed, using the simple arithmetic mean formula:
+	\[\bar{t}={\frac {1}{n}}\sum _{i=1}^{n}t_{i}\]
+	where $n$ represents the number of trials ($3$).	
+	& 
+	Example for Setup $\# 1$:
+	\[\bar{t} =\frac{(342 \pm .05) + (354 \pm .05) + (331 \pm .05)}{3} = \frac{(1027 \pm .15)}{3}\]
+	\[\bar{t} = \SI{342 \pm .05}{\second}\] \\
+  \hline
+Then, we must calculate the concentrations of each reactant based on the total volume and their specific volume using the mole-constant dilution formula:
+
+\[M_1V_1 = M_2V_2 \textit{ or } M_2 = \frac{M_1V_1}{V_2} \]
+
+where $M_1$ is the initial molarity of the reactant, $V_1$ is the initial volume of the reactant, and $V_2$ is the total volume ($25 mL$). We can additionally calculate potential discrepancies for the largest percent uncertainty and then propagate this error for the remaining results.
+	& 
+	Example for Setup $\# 1$: \newline
+
+	{$\!\begin{aligned}
+	\left[I_2\right] &= \frac{\SI{.005}{\molar} \times \SI{5 \pm .05}{\milli\liter}}{\SI{25 \pm .2}{\milli\liter}} = \frac{(.025 + .00025)}{(25 \pm .2)} \\
+	&= \frac{(.025 + 1\%)}{(25 \pm .8\%)} = .001 \pm 1.8\% \\
+	&= \SI{.001 \pm .000018}{\molar} 
+	\end{aligned}$} 
+
+Through an identical process, the final concentrations of $[HCl]$ and $[Acetone]$ can also be determined. Because $[I_2]$ has the smallest quantity, it has the largest percent error of $1.8\%$, which is carried over for all final concentrations. \\
+\hline
+
+Using the two above steps, we can then determine the rate for each individual configuration using the previously discussed equation:
+
+\[rate = \frac{[I_2]}{\bar{t}}\]
+
+The same propagation approach is utilized, but the uncertainties are largely irrelevant for the purpose of rate calculation which is predicated on approximation already.
+&
+Example for Setup $\# 1$: \newline
+
+	{$\!\begin{aligned}
+	rate &= \frac{\SI{.001 \pm .000018}{\molar}}{\SI{342 \pm .05}{\second}} \\
+	&= \frac{.001 \pm 1.8\%}{342 \pm .01\%} = \num{2.92e-6} \pm 1.81\% \\
+	&= \SI{2.92e-6}{\molar\per\second}
+	\end{aligned}$} \\
+
+  \hline
+After determining the rates for all trials, we can compare the rates for configurations $2-4$ to the baseline provided by $1$ to determine the rate law. As in each of the last $3$ trials, the concentration of one reactant was changed while maintaining the total volume, the concentration of that reactant is doubled for that specific trial. Thus, we can calculate our order $m$ by the formula:
+
+\[m = \log_2 \left(\frac{rate_i}{rate_1}\right)\]
+
+where $rate_i$ is the rate for the given setup and $rate_1$ is the rate for configuration $\#1$. The result must be approximated, as $m$ must be a whole integer $>=0$.
+&
+Example for Setup $\# 4$: \newline
+
+{$\!\begin{aligned}
+	m &= \log_2 \left(\frac{\num{6.37e-6}}{\num{2.92e-6}}\right) = \log_2 2.18 = 1.12 \\
+	&\approx 1
+	\end{aligned}$} \\
+
+Thus, the concentration of $HCl$ is first order with respect to the overall reaction based on this determination. The remaining orders are also calculated in the same manner.
+
+\hline
+
+\end{tabularx}
+\caption{Rate Law Calculations}
+\label{table:rate_law_calculations}
+\end{table}
