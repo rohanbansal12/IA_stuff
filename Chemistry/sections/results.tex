@@ -8,7 +8,7 @@
 	\centering
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|} 
 		 \hline
-		 \multirow{2}{*}{Setup} & \multicolumn{5}{|c|}{Volumes $(\pm .05 mL)$} & \multicolumn{3}{|c|}{Time $(\pm .05 s)$}\\
+		 \multirow{2}{*}{Setup} & \multicolumn{5}{c|}{Volumes $(\pm .05 mL)$} & \multicolumn{3}{c|}{Time $(\pm .05 s)$}\\
 		 \cline{2-9}
 		 & $HCl$ & $Acetone$ & $I_2$ & $H_2O$ & Total & $\#1$ & $\#2$ & $\#3$ \\
 		  \hline
@@ -28,7 +28,7 @@
 \centering
 	\begin{tabular}{|c|c|c|c|} 
 		 \hline
-		 Temperature & \multicolumn{3}{|c|}{Time $(\pm .05 s)$}\\
+		 Temperature & \multicolumn{3}{c|}{Time $(\pm .05 s)$}\\
 		 \cline{2-4}
 		 $(\pm .05 K)$ & $\#1$ & $\#2$ & $\#3$ \\
 		  \hline
@@ -215,15 +215,15 @@ This process is again carried out for all four temperatures, providing the neces
 \centering
 	\begin{tabular}{|c|c|c|c|} 
 		 \hline
-		 Temperature & $k$ ($\si{\cubic\deci\metre\per\mol\per\second}$) & $\frac{1}{T}$ ($\pm .17\%$ $\si{\per\kelvin}$) & $\ln{k}$ ($\pm .055$) \\
+		 Temperature & $k$ ($\si{\cubic\deci\metre\per\mol\per\second}$) & $\frac{1}{T}$ ($\pm .17\%$) ($\si{\per\kelvin}$) & $\ln{k}$ ($\pm .055$) \\
 		  \hline
-		  $287.1$ & $\num{8.47\pm.47e-6}$ & $\#1$ & $-11.68$ \\
+		  $287.1$ & $\num{8.47\pm.47e-6}$ & $\num{3.48e-3}$ & $-11.68$ \\
 		  \hline
-		  $294.8$ & $\num{1.83\pm.10e-5}$ & $\#2$ & $-10.91$\\
+		  $294.8$ & $\num{1.83\pm.10e-5}$ & $\num{3.39e-3}$ & $-10.91$\\
 		  \hline
-		  $306.8$ & $\num{4.81\pm.26e-5}$ & $\#3$ & $-9.94$\\
+		  $306.8$ & $\num{4.81\pm.26e-5}$ & $\num{3.26e-3}$ & $-9.94$\\
 		  \hline
-		  $317.5$ & $\num{1.49\pm.08e-4}$ & $\#4$ & $-8.81$\\
+		  $317.5$ & $\num{1.49\pm.08e-4}$ & $\num{3.15e-3}$ & $-8.81$\\
 		  \hline
 		\end{tabular}
 	\caption{Activation Energy Experiment (all trials carried out with volume setup $\#1$ in \cref{table:rate_law_raw_data})}
@@ -265,7 +265,7 @@ To determine the uncertainty of the coefficients in the regression, the statisti
 \input{fig/arrhenius}
 
 \subsection{Analysis}
-Overall, there do not appear to be any serious/obvious anomalies for all data collected in this experiment. The general trend line depicted in the linear regression of \cref{fig:arrhenius} is consistent with the scientific theory of the Arrhenius Equation and the linear relationship between the natural log of the rate constant and the inverse of the temperature of the reaction. The data collected for the trial at $\SI{294.8}{\kelvin}$ did appear to be an anomaly based on this statistical regression, however it was used to accurately determine the rate law for the overall stoichiometric reaction and its elimination did not result in a significantly larger correlation coefficient, indicating that it may not be as large of a structural deviation as initially thought. The high $R^2$ value also suggests a strong statistical significance of the determined results, further providing support to the initial claims and lending credibility to the design and implementation of the experiment in its entirety. The uncertainties of the results were generally low for the majority of measurements, including those for temperature and volume, however the error for the final regression (and thus the activation energy) did become large due to a limited dataset size. This large error indicates systematic errors in the premise of the experiment, which will be further analyzed. 
+Overall, there do not appear to be any serious/obvious anomalies for all data collected in this experiment. The general trend line depicted in the linear regression of \cref{fig:arrhenius} is consistent with the scientific theory of the Arrhenius Equation and the linear relationship between the natural log of the rate constant and the inverse of the temperature of the reaction. The data collected for the trial at $\SI{294.8}{\kelvin}$ did appear to be an anomaly based on this statistical regression, however it was used to accurately determine the rate law for the overall stoichiometric reaction and its elimination did not result in a significantly larger correlation coefficient, indicating that it may not be as large of a structural deviation as initially thought. One possible explanation for this, however, may be that there were major fluctuations in room temperature at the time of the experiment, leading to a consistent change in proportions for all data calculated during thos trials. This explanation would account for the correct rate law being empirically derived from data at this temperature, and would also explain the reason for its status as an apparent outlier in the multi-temperature regression. The high $R^2$ value also suggests a strong statistical significance of the determined results, further providing support to the initial claims and lending credibility to the design and implementation of the experiment in its entirety. The uncertainties of the results were generally low for the majority of measurements, including those for temperature and volume, however the error for the final regression (and thus the activation energy) did become large due to a limited dataset size. This large error indicates systematic errors in the premise of the experiment, which will be further analyzed. 
 
 
 \newpage

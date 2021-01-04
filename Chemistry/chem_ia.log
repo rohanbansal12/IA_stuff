@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.26)  3 JAN 2021 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.26)  3 JAN 2021 20:16
 entering extended mode
 **./chem_ia.tex
 (chem_ia.tex
@@ -1784,7 +1784,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--186
  []
 
 
-Overfull \hbox (10.81837pt too wide) in paragraph at lines 216--229
+Overfull \hbox (16.81236pt too wide) in paragraph at lines 216--229
  [][] 
  []
 
@@ -1880,7 +1880,7 @@ c/txfonts/txex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsy
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on chem_ia.pdf (13 pages, 479436 bytes).
+Output written on chem_ia.pdf (13 pages, 479751 bytes).
 PDF statistics:
  452 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)
