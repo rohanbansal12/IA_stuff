@@ -1,0 +1,546 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{reversibility_find}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{issn}{0080-4630, 2053-9169}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences}
+      \field{month}{1}
+      \field{number}{1102}
+      \field{volume}{210}
+      \field{year}{1952}
+      \field{pages}{310\bibrangedash 322}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1098/rspa.1952.0002
+      \endverb
+    \endentry
+    \entry{main_literature}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c1b6518a97b52bb068f1948b87963306}{%
+           family={Albery},
+           familyi={A\bibinitperiod},
+           given={W.\bibnamedelimi J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7f04ef7e32c316350843e6967e794806}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={B.\bibnamedelimi H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b32877f86efdd2e8d9c85a23b31987f}
+      \strng{fullhash}{5b32877f86efdd2e8d9c85a23b31987f}
+      \strng{bibnamehash}{5b32877f86efdd2e8d9c85a23b31987f}
+      \strng{authorbibnamehash}{5b32877f86efdd2e8d9c85a23b31987f}
+      \strng{authornamehash}{5b32877f86efdd2e8d9c85a23b31987f}
+      \strng{authorfullhash}{5b32877f86efdd2e8d9c85a23b31987f}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0014-7672}
+      \field{journaltitle}{Transactions of the Faraday Society}
+      \field{title}{Measurement of enthalpies and heat capacities of activation by differential methods}
+      \field{volume}{65}
+      \field{year}{1969}
+      \field{pages}{980}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1039/tf9696500980
+      \endverb
+    \endentry
+    \entry{reversiblity}{article}{}
+      \name{author}{2}{}{%
+        {{hash=91391336ddd5e37c81d9d131f1985709}{%
+           family={Bell},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=41dbdaf24e55ac96cd7c1ec12f59698f}{%
+           family={Yates},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{164f342e89ef6b2d70748405ce77e221}
+      \strng{fullhash}{164f342e89ef6b2d70748405ce77e221}
+      \strng{bibnamehash}{164f342e89ef6b2d70748405ce77e221}
+      \strng{authorbibnamehash}{164f342e89ef6b2d70748405ce77e221}
+      \strng{authornamehash}{164f342e89ef6b2d70748405ce77e221}
+      \strng{authorfullhash}{164f342e89ef6b2d70748405ce77e221}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0368-1769}
+      \field{journaltitle}{Journal of the Chemical Society (Resumed)}
+      \field{title}{362. Kinetics of the chlorination of acetone in aqueous solution}
+      \field{year}{1962}
+      \field{pages}{1927}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1039/jr9620001927
+      \endverb
+    \endentry
+    \entry{acid_catalyst}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b181b0935824a84bc60d3ade59976c35}{%
+           family={Busca},
+           familyi={B\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b181b0935824a84bc60d3ade59976c35}
+      \strng{fullhash}{b181b0935824a84bc60d3ade59976c35}
+      \strng{bibnamehash}{b181b0935824a84bc60d3ade59976c35}
+      \strng{authorbibnamehash}{b181b0935824a84bc60d3ade59976c35}
+      \strng{authornamehash}{b181b0935824a84bc60d3ade59976c35}
+      \strng{authorfullhash}{b181b0935824a84bc60d3ade59976c35}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2665, 1520-6890}
+      \field{journaltitle}{Chemical Reviews}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Acid Catalysts in Industrial Hydrocarbon Chemistry}
+      \field{volume}{107}
+      \field{year}{2007}
+      \field{pages}{5366\bibrangedash 5410}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1021/cr068042e
+      \endverb
+    \endentry
+    \entry{regression_stat_book}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c7abc90e14f2761d9325ee092fda0de7}{%
+           family={Casella},
+           familyi={C\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=819beb5f4220e56c3afce0e6c63847a1}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Roger\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Thomson Learning}%
+      }
+      \strng{namehash}{c6df33453b0c6fbb42492656a87f4723}
+      \strng{fullhash}{c6df33453b0c6fbb42492656a87f4723}
+      \strng{bibnamehash}{c6df33453b0c6fbb42492656a87f4723}
+      \strng{authorbibnamehash}{c6df33453b0c6fbb42492656a87f4723}
+      \strng{authornamehash}{c6df33453b0c6fbb42492656a87f4723}
+      \strng{authorfullhash}{c6df33453b0c6fbb42492656a87f4723}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed}
+      \field{isbn}{9780534243128}
+      \field{title}{Statistical inference}
+      \field{year}{2002}
+    \endentry
+    \entry{iodine_coloring}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b64569c6d3262e1e65ed289d2440bf2a}{%
+           family={Hildebrand},
+           familyi={H\bibinitperiod},
+           given={Joel\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5ae1c68ad9b1653d6102133f69df7b0d}{%
+           family={Glascock},
+           familyi={G\bibinitperiod},
+           given={Ben\bibnamedelima Leon},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1da4d61cb13ab6e25a3bacb7039b14a1}
+      \strng{fullhash}{1da4d61cb13ab6e25a3bacb7039b14a1}
+      \strng{bibnamehash}{1da4d61cb13ab6e25a3bacb7039b14a1}
+      \strng{authorbibnamehash}{1da4d61cb13ab6e25a3bacb7039b14a1}
+      \strng{authornamehash}{1da4d61cb13ab6e25a3bacb7039b14a1}
+      \strng{authorfullhash}{1da4d61cb13ab6e25a3bacb7039b14a1}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-7863, 1520-5126}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{THE COLOR OF IODINE SOLUTIONS.}
+      \field{volume}{31}
+      \field{year}{1909}
+      \field{pages}{26\bibrangedash 31}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/ja01931a005
+      \endverb
+    \endentry
+    \entry{alternative_approach_1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=11f0d6be4efd42368c9b528215e75e52}{%
+           family={Lapworth},
+           familyi={L\bibinitperiod},
+           given={Arthur},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{11f0d6be4efd42368c9b528215e75e52}
+      \strng{fullhash}{11f0d6be4efd42368c9b528215e75e52}
+      \strng{bibnamehash}{11f0d6be4efd42368c9b528215e75e52}
+      \strng{authorbibnamehash}{11f0d6be4efd42368c9b528215e75e52}
+      \strng{authornamehash}{11f0d6be4efd42368c9b528215e75e52}
+      \strng{authorfullhash}{11f0d6be4efd42368c9b528215e75e52}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0368-1645}
+      \field{journaltitle}{J. Chem. Soc., Trans.}
+      \field{number}{0}
+      \field{title}{V.—The action of halogens on compounds containing the carbonyl group}
+      \field{volume}{85}
+      \field{year}{1904}
+      \field{pages}{30\bibrangedash 42}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1039/CT9048500030
+      \endverb
+    \endentry
+    \entry{arrhenius}{article}{}
+      \name{author}{1}{}{%
+        {{hash=47e4e366b60c18cdb6c370f8fe52bcdf}{%
+           family={Logan},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{47e4e366b60c18cdb6c370f8fe52bcdf}
+      \strng{fullhash}{47e4e366b60c18cdb6c370f8fe52bcdf}
+      \strng{bibnamehash}{47e4e366b60c18cdb6c370f8fe52bcdf}
+      \strng{authorbibnamehash}{47e4e366b60c18cdb6c370f8fe52bcdf}
+      \strng{authornamehash}{47e4e366b60c18cdb6c370f8fe52bcdf}
+      \strng{authorfullhash}{47e4e366b60c18cdb6c370f8fe52bcdf}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9584, 1938-1328}
+      \field{journaltitle}{Journal of Chemical Education}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{The origin and status of the Arrhenius equation}
+      \field{volume}{59}
+      \field{year}{1982}
+      \field{pages}{279}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1021/ed059p279
+      \endverb
+    \endentry
+    \entry{general_catalysts}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f2ff7ecc9adb80c461c4c242aa211868}{%
+           family={Masel},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Interscience}%
+      }
+      \strng{namehash}{f2ff7ecc9adb80c461c4c242aa211868}
+      \strng{fullhash}{f2ff7ecc9adb80c461c4c242aa211868}
+      \strng{bibnamehash}{f2ff7ecc9adb80c461c4c242aa211868}
+      \strng{authorbibnamehash}{f2ff7ecc9adb80c461c4c242aa211868}
+      \strng{authornamehash}{f2ff7ecc9adb80c461c4c242aa211868}
+      \strng{authorfullhash}{f2ff7ecc9adb80c461c4c242aa211868}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780471241973}
+      \field{title}{Chemical kinetics and catalysis}
+      \field{year}{2001}
+    \endentry
+    \entry{acetone}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a50b910c4b13aae02f23f314b7abb6bf}{%
+           family={PubChem},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Center for Biotechnology Information}%
+      }
+      \strng{namehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{fullhash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{bibnamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authorbibnamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authornamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authorfullhash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Acetone}
+      \verb{urlraw}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/180
+      \endverb
+      \verb{url}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/180
+      \endverb
+    \endentry
+    \entry{acid}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a50b910c4b13aae02f23f314b7abb6bf}{%
+           family={PubChem},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Center for Biotechnology Information}%
+      }
+      \strng{namehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{fullhash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{bibnamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authorbibnamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authornamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authorfullhash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hydrochloric Acid}
+      \verb{urlraw}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/313
+      \endverb
+      \verb{url}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/313
+      \endverb
+    \endentry
+    \entry{iodoacetone}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a50b910c4b13aae02f23f314b7abb6bf}{%
+           family={PubChem},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Center for Biotechnology Information}%
+      }
+      \strng{namehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{fullhash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{bibnamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authorbibnamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authornamehash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \strng{authorfullhash}{a50b910c4b13aae02f23f314b7abb6bf}
+      \field{extraname}{3}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Iodoacetone}
+      \verb{urlraw}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/76396
+      \endverb
+      \verb{url}
+      \verb https://pubchem.ncbi.nlm.nih.gov/compound/76396
+      \endverb
+    \endentry
+    \entry{other_literature_1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7677c5f48710ba6afd39394486033d27}{%
+           family={Rice},
+           familyi={R\bibinitperiod},
+           given={F.\bibnamedelimi O.},
+           giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=cb272180e18dbaa7f1a19326d1cd464e}{%
+           family={Kilpatrick},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f794138ff69796f0b273739cbc89d12e}
+      \strng{fullhash}{f794138ff69796f0b273739cbc89d12e}
+      \strng{bibnamehash}{f794138ff69796f0b273739cbc89d12e}
+      \strng{authorbibnamehash}{f794138ff69796f0b273739cbc89d12e}
+      \strng{authornamehash}{f794138ff69796f0b273739cbc89d12e}
+      \strng{authorfullhash}{f794138ff69796f0b273739cbc89d12e}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-7863, 1520-5126}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{THE MEASUREMENT OF REACTION VELOCITY AND THE TEMPERATURE COEFFICIENT OF REACTION VELOCITY 1}
+      \field{volume}{45}
+      \field{year}{1923}
+      \field{pages}{1401\bibrangedash 1412}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1021/ja01659a010
+      \endverb
+    \endentry
+    \entry{mechanism_information_ketone}{book}{}
+      \name{author}{2}{}{%
+        {{hash=2ac39e7625e63f4270e12d349085f560}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=11c06d6471d42cc0f67463f5dcfd149a}{%
+           family={Caserio},
+           familyi={C\bibinitperiod},
+           given={Marjorie\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {W. A. Benjamin}%
+      }
+      \strng{namehash}{82a9fdc4f2907b8bbaf31b274a3154be}
+      \strng{fullhash}{82a9fdc4f2907b8bbaf31b274a3154be}
+      \strng{bibnamehash}{82a9fdc4f2907b8bbaf31b274a3154be}
+      \strng{authorbibnamehash}{82a9fdc4f2907b8bbaf31b274a3154be}
+      \strng{authornamehash}{82a9fdc4f2907b8bbaf31b274a3154be}
+      \strng{authorfullhash}{82a9fdc4f2907b8bbaf31b274a3154be}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2d ed}
+      \field{isbn}{9780805383294}
+      \field{title}{Basic principles of organic chemistry}
+      \field{year}{1977}
+    \endentry
+    \entry{other_literature_2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b009f063c38b360e753784667cdd39f8}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Gilbert\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b009f063c38b360e753784667cdd39f8}
+      \strng{fullhash}{b009f063c38b360e753784667cdd39f8}
+      \strng{bibnamehash}{b009f063c38b360e753784667cdd39f8}
+      \strng{authorbibnamehash}{b009f063c38b360e753784667cdd39f8}
+      \strng{authornamehash}{b009f063c38b360e753784667cdd39f8}
+      \strng{authorfullhash}{b009f063c38b360e753784667cdd39f8}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0368-1769}
+      \field{journaltitle}{J. Chem. Soc.}
+      \field{number}{0}
+      \field{title}{381. Heats of activation of the acetone–iodine reaction}
+      \field{volume}{0}
+      \field{year}{1934}
+      \field{pages}{1744\bibrangedash 1750}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1039/JR9340001744
+      \endverb
+    \endentry
+    \entry{base_catalyst}{article}{}
+      \name{author}{2}{}{%
+        {{hash=89e5677c87a1648b5ca3421c55cf2913}{%
+           family={Tapuhi},
+           familyi={T\bibinitperiod},
+           given={Eliana},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c847604205fa3eca63764f2e02208ae3}{%
+           family={Jencks},
+           familyi={J\bibinitperiod},
+           given={William\bibnamedelima P.},
+           giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d94edec8e26cb07e2204aeccd4bb8b0b}
+      \strng{fullhash}{d94edec8e26cb07e2204aeccd4bb8b0b}
+      \strng{bibnamehash}{d94edec8e26cb07e2204aeccd4bb8b0b}
+      \strng{authorbibnamehash}{d94edec8e26cb07e2204aeccd4bb8b0b}
+      \strng{authornamehash}{d94edec8e26cb07e2204aeccd4bb8b0b}
+      \strng{authorfullhash}{d94edec8e26cb07e2204aeccd4bb8b0b}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-7863}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{10}
+      \field{number}{21}
+      \field{title}{Base-catalyzed halogenation of acetone}
+      \field{volume}{104}
+      \field{year}{1982}
+      \field{pages}{5758\bibrangedash 5765}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/ja00385a034
+      \endverb
+    \endentry
+    \entry{Young_Freedman_Young_2020}{book}{}
+      \name{author}{3}{}{%
+        {{hash=cdcb55db9d535bec955f5911f1ac4e59}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Hugh\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=073003dafd6f7a0d40236b25403e4573}{%
+           family={Freedman},
+           familyi={F\bibinitperiod},
+           given={Roger\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cdcb55db9d535bec955f5911f1ac4e59}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Hugh\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Higher Education}%
+      }
+      \strng{namehash}{c53001454754d8e4488919abe79b97b1}
+      \strng{fullhash}{5ec540610b6ee5ccc2f60f624f1c00bd}
+      \strng{bibnamehash}{5ec540610b6ee5ccc2f60f624f1c00bd}
+      \strng{authorbibnamehash}{5ec540610b6ee5ccc2f60f624f1c00bd}
+      \strng{authornamehash}{c53001454754d8e4488919abe79b97b1}
+      \strng{authorfullhash}{5ec540610b6ee5ccc2f60f624f1c00bd}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{15th edition}
+      \field{isbn}{9780135159552}
+      \field{title}{University physics with modern physics}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+  \missing{intro_chemistryj}
+  \missing{iodioacetone}
+\endrefsection
+\endinput
+
