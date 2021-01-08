@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.26)  3 JAN 2021 20:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.26)  4 JAN 2021 22:14
 entering extended mode
 **./chem_ia.tex
 (chem_ia.tex
@@ -1660,7 +1660,7 @@ LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9> not available
 
 pdfTeX warning: pdflatex.EXE (file ./fig/images/catalyst_enthalpy.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<fig/images/catalyst_enthalpy.pdf, id=143, 412.62558pt x 303.84114pt>
+<fig/images/catalyst_enthalpy.pdf, id=147, 412.62558pt x 303.84114pt>
 File: fig/images/catalyst_enthalpy.pdf Graphic file (type pdf)
 <use fig/images/catalyst_enthalpy.pdf>
 Package pdftex.def Info: fig/images/catalyst_enthalpy.pdf  used on input line 6
@@ -1672,7 +1672,7 @@ LaTeX Font Info:    Font shape `T1/txr/b/n' in size <8> not available
 
 pdfTeX warning: pdflatex.EXE (file ./fig/images/catalyst_maxwell.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<fig/images/catalyst_maxwell.pdf, id=144, 452.63103pt x 303.84114pt>
+<fig/images/catalyst_maxwell.pdf, id=148, 452.63103pt x 303.84114pt>
 File: fig/images/catalyst_maxwell.pdf Graphic file (type pdf)
 <use fig/images/catalyst_maxwell.pdf>
 Package pdftex.def Info: fig/images/catalyst_maxwell.pdf  used on input line 13
@@ -1682,7 +1682,7 @@ Package pdftex.def Info: fig/images/catalyst_maxwell.pdf  used on input line 13
 
 pdfTeX warning: pdflatex.EXE (file ./fig/images/mechanism/protonization.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<fig/images/mechanism/protonization.pdf, id=149, 1107.84888pt x 721.0749pt>
+<fig/images/mechanism/protonization.pdf, id=153, 1107.84888pt x 721.0749pt>
 File: fig/images/mechanism/protonization.pdf Graphic file (type pdf)
 <use fig/images/mechanism/protonization.pdf>
 Package pdftex.def Info: fig/images/mechanism/protonization.pdf  used on input 
@@ -1697,7 +1697,7 @@ Overfull \hbox (8.06064pt too wide) in paragraph at lines 20--20
 
 pdfTeX warning: pdflatex.EXE (file ./fig/images/mechanism/hydration.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<fig/images/mechanism/hydration.pdf, id=150, 1467.99442pt x 907.39pt>
+<fig/images/mechanism/hydration.pdf, id=154, 1467.99442pt x 907.39pt>
 File: fig/images/mechanism/hydration.pdf Graphic file (type pdf)
 <use fig/images/mechanism/hydration.pdf>
 Package pdftex.def Info: fig/images/mechanism/hydration.pdf  used on input line
@@ -1712,7 +1712,7 @@ Overfull \hbox (8.06064pt too wide) in paragraph at lines 22--22
 
 pdfTeX warning: pdflatex.EXE (file ./fig/images/mechanism/sn2.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<fig/images/mechanism/sn2.pdf, id=151, 1192.57544pt x 305.42004pt>
+<fig/images/mechanism/sn2.pdf, id=155, 1192.57544pt x 305.42004pt>
 File: fig/images/mechanism/sn2.pdf Graphic file (type pdf)
 <use fig/images/mechanism/sn2.pdf>
 Package pdftex.def Info: fig/images/mechanism/sn2.pdf  used on input line 24.
@@ -1726,7 +1726,7 @@ Overfull \hbox (8.06064pt too wide) in paragraph at lines 24--24
 
 pdfTeX warning: pdflatex.EXE (file ./fig/images/mechanism/deprotonization.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<fig/images/mechanism/deprotonization.pdf, id=152, 1171.51678pt x 305.36282pt>
+<fig/images/mechanism/deprotonization.pdf, id=156, 1171.51678pt x 305.36282pt>
 File: fig/images/mechanism/deprotonization.pdf Graphic file (type pdf)
 <use fig/images/mechanism/deprotonization.pdf>
 Package pdftex.def Info: fig/images/mechanism/deprotonization.pdf  used on inpu
@@ -1753,7 +1753,7 @@ ion.pdf>]) (sections/hypothesis.tex) (sections/variables.tex [3])
 
 pdfTeX warning: pdflatex.EXE (file ./fig/images/visual_setup.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<fig/images/visual_setup.pdf, id=286, 405.89241pt x 248.61984pt>
+<fig/images/visual_setup.pdf, id=290, 405.89241pt x 248.61984pt>
 File: fig/images/visual_setup.pdf Graphic file (type pdf)
 <use fig/images/visual_setup.pdf>
 Package pdftex.def Info: fig/images/visual_setup.pdf  used on input line 4.
@@ -1794,7 +1794,7 @@ Overfull \hbox (31.71pt too wide) in paragraph at lines 240--254
  []
 
 [8] (fig/arrhenius.tex
-<fig/images/arrhenius.png, id=334, 1204.5pt x 803.0pt>
+<fig/images/arrhenius.png, id=338, 1204.5pt x 803.0pt>
 File: fig/images/arrhenius.png Graphic file (type png)
 <use fig/images/arrhenius.png>
 Package pdftex.def Info: fig/images/arrhenius.png  used on input line 4.
@@ -1840,34 +1840,34 @@ Overfull \hbox (10.51378pt too wide) in paragraph at lines 30--44
  [][] 
  []
 
-[10]) (sections/conclusion.tex) [11]
+[10]) (sections/conclusion.tex [11])
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 8
-3.
+1.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/txfonts\t1txtt.fd"
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (chem_ia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `chem_ia.out' has not changed.
-(rerunfilecheck)             Checksum: 188755A6B4E90C33E439CD2152503B74;2096.
+(rerunfilecheck)             Checksum: 0DD32205B5CCAE4EECE655CE7F8A0653;2163.
 Package logreq Info: Writing requests to 'chem_ia.run.xml'.
 \openout1 = `chem_ia.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 36024 strings out of 481212
- 669879 string characters out of 2913851
+ 36026 strings out of 481212
+ 669919 string characters out of 2913851
  1435548 words of memory out of 3000000
- 50839 multiletter control sequences out of 15000+200000
+ 50840 multiletter control sequences out of 15000+200000
  622414 words of font info for 181 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,32n,98p,2229b,1718s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,32n,98p,2277b,1718s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/txfonts/rtcxr.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/txfonts/rtxb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
@@ -1880,9 +1880,9 @@ c/txfonts/txex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsy
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on chem_ia.pdf (13 pages, 479751 bytes).
+Output written on chem_ia.pdf (13 pages, 482119 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 297 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 458 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
