@@ -1,26 +1,22 @@
-[0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'chem_ia.blg'
-[75] biber-MSWIN64:322> INFO - === 
-[95] Biber.pm:415> INFO - Reading 'chem_ia.bcf'
-[224] Biber.pm:943> INFO - Found 19 citekeys in bib section 0
-[243] Biber.pm:4256> INFO - Processing section 0
-[244] Utils.pm:75> INFO - Globbing data source 'bib.bib'
-[252] Utils.pm:91> INFO - Globbed data source 'bib.bib' to bib.bib
-[266] Biber.pm:4455> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[269] bibtex.pm:1653> INFO - LaTeX decoding ...
-[311] bibtex.pm:1471> INFO - Found BibTeX data source 'bib.bib'
-[337] Utils.pm:304> WARN - month field 'Nov' in entry 'acid_catalyst' is not an integer - this will probably not sort properly.
-[341] Utils.pm:304> WARN - month field 'Jan' in entry 'iodine_coloring' is not an integer - this will probably not sort properly.
-[380] Utils.pm:304> WARN - month field 'Apr' in entry 'arrhenius' is not an integer - this will probably not sort properly.
-[409] Utils.pm:304> WARN - month field 'Jun' in entry 'other_literature_1' is not an integer - this will probably not sort properly.
-[410] Utils.pm:304> WARN - month field 'Jan' in entry 'reversibility_find' is not an integer - this will probably not sort properly.
-[414] Utils.pm:304> WARN - month field 'Oct' in entry 'base_catalyst' is not an integer - this will probably not sort properly.
-[416] Utils.pm:304> WARN - I didn't find a database entry for 'iodioacetone' (section 0)
-[416] Utils.pm:304> WARN - I didn't find a database entry for 'intro_chemistryj' (section 0)
-[439] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[439] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[439] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[440] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[458] bbl.pm:652> INFO - Writing 'chem_ia.bbl' with encoding 'UTF-8'
-[467] bbl.pm:755> INFO - Output to chem_ia.bbl
-[468] Biber.pm:128> INFO - WARNINGS: 8
+[0] Config.pm:312> INFO - This is Biber 2.15 (beta)
+[1] Config.pm:315> INFO - Logfile is 'chem_ia.blg'
+[336] biber-MSWIN64:330> INFO - === 
+[367] Biber.pm:415> INFO - Reading 'chem_ia.bcf'
+[564] Biber.pm:952> INFO - Found 18 citekeys in bib section 0
+[599] Biber.pm:4334> INFO - Processing section 0
+[627] Biber.pm:4523> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[642] bibtex.pm:1682> INFO - LaTeX decoding ...
+[697] bibtex.pm:1494> INFO - Found BibTeX data source 'bib.bib'
+[732] Utils.pm:395> WARN - month field 'Nov' in entry 'acid_catalyst' is not an integer - this will probably not sort properly.
+[739] Utils.pm:395> WARN - month field 'Jan' in entry 'iodine_coloring' is not an integer - this will probably not sort properly.
+[830] Utils.pm:395> WARN - month field 'Apr' in entry 'arrhenius' is not an integer - this will probably not sort properly.
+[866] Utils.pm:395> WARN - month field 'Jun' in entry 'other_literature_1' is not an integer - this will probably not sort properly.
+[874] Utils.pm:395> WARN - month field 'Jan' in entry 'reversibility_find' is not an integer - this will probably not sort properly.
+[879] Utils.pm:395> WARN - month field 'Oct' in entry 'base_catalyst' is not an integer - this will probably not sort properly.
+[928] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[928] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[928] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[929] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[978] bbl.pm:651> INFO - Writing 'chem_ia.bbl' with encoding 'UTF-8'
+[996] bbl.pm:754> INFO - Output to chem_ia.bbl
+[1006] Biber.pm:128> INFO - WARNINGS: 6

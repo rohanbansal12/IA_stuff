@@ -34,6 +34,21 @@
       \verb 10.1098/rspa.1952.0002
       \endverb
     \endentry
+    \entry{intro_chemistry}{book}{}
+      \list{publisher}{1}{%
+        {BCcampus}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{isbn}{9781774200032}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://open.umn.edu/opentextbooks/textbooks/918
+      \endverb
+      \verb{url}
+      \verb https://open.umn.edu/opentextbooks/textbooks/918
+      \endverb
+    \endentry
     \entry{main_literature}{article}{}
       \name{author}{2}{}{%
         {{hash=c1b6518a97b52bb068f1948b87963306}{%
@@ -539,8 +554,6 @@
       \field{year}{2020}
     \endentry
   \enddatalist
-  \missing{intro_chemistryj}
-  \missing{iodioacetone}
 \endrefsection
 \endinput
 
