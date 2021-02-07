@@ -19,21 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{reversibility_find}{article}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{issn}{0080-4630, 2053-9169}
-      \field{journaltitle}{Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences}
-      \field{month}{1}
-      \field{number}{1102}
-      \field{volume}{210}
-      \field{year}{1952}
-      \field{pages}{310\bibrangedash 322}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1098/rspa.1952.0002
-      \endverb
-    \endentry
     \entry{intro_chemistry}{book}{}
       \list{publisher}{1}{%
         {BCcampus}%
